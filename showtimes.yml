@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /api/v2/poli
+  port: 9082
+spring:
+  application:
+    name: showtimes
+  profiles:
+    active: dev
+

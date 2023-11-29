@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /api/v2/poli
+  port: 9083
+spring:
+  application:
+    name: users
+  profiles:
+    active: dev
+
