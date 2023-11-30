@@ -16,16 +16,16 @@ spring:
         - id: bookings
           uri: lb://bookings
           predicates:
-            - Path=/api/v2/poli/bookings/**
+            - Path=/api/v2/poli/booking/**
         - id: movies
           uri: lb://movies
           predicates:
-            - Path=/api/v2/poli/movies/**
+            - Path=/api/v2/poli/movie/**
         - id: showtimes
           uri: lb://showtimes
           predicates:
-            - Path=/api/v2/poli/shotimes/**
+            - Path=/api/v2/poli/shotime/**
         - id: users
           uri: lb://users
           predicates:
-            - Path=/api/v2/poli/users/**
+            - Path=/api/v2/poli/user/**
